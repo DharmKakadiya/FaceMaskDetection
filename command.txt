@@ -1,0 +1,22 @@
+pip install -U click==8
+pip install streamlit --upgrade
+
+
+
+
+TRAINING ( Do not touch this)
+#python train_mask_detector.py --dataset dataset
+
+
+
+IMAGE
+python detect_mask_image.py --image images/pic1.jpeg
+
+
+VIDEO
+python detect_mask_video.py 
+
+
+
+WEB BROWSER
+streamlit run app.py
